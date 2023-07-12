@@ -20,7 +20,7 @@ jobs:
             node-version: 16
 
       - name: Dependencies install
-        run: npm install
+        run: yarn install
 
       - name: Run All tests
         run: npx cypress run
