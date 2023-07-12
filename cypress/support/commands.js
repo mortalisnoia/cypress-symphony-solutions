@@ -13,6 +13,7 @@ Cypress.Commands.add('filterEntriesByCategoryAndCount', (response, category) => 
     let count = 0;
     let entries = []
     response.body.entries.forEach((data) => {
+        expect(data).to.have.property('Category');
         if(data.Category == category) {
             count ++
             entries.push(data);
