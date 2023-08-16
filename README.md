@@ -1,5 +1,3 @@
-# Heartland-Project
-
 ## Installation
 It is simple, to install all dependencies just do the following:
 * Clone this repository (git clone repositoryUrl.git)
